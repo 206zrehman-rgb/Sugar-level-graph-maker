@@ -61,31 +61,24 @@ class GUI:
 
         self.window.mainloop()
 
-
-    #adding these to the gui file, just add the self parameter as well as chaning the user input to instead use the showinfo function
-
     def fileHandling(self):
         if not os.path.exists("sugarlevels.csv"): #if the file does not exist create it
             with open("sugarlevels.csv", "w", newline="") as f:
                 writer = csv.writer(f)
                 writer.writerow(["date", "level"])
 
-
-            # Function to read sugar levels from the CSV file
-            # 
+            
     def readSugarLevels(self):
         try:
             with open("sugarlevels.csv", "r") as data:
                 reader = csv.reader(data) #reads contents of the csv file
-                    #for row in reader: #for each row in the csv file
-                            #print(row) #print the row
+            
         except FileNotFoundError:
             print("File not found.")
 
             # Function to add a sugar level entry
     def addSugarLevel(self, sugar_level):
         try:
-            # sugar_level = float(input("Enter sugar level: "))
             x = datetime.datetime.now().strftime(" %a/%H:%M")
             with open("sugarlevels.csv", "a", newline="") as f:
                 writer = csv.writer(f)
@@ -104,7 +97,7 @@ class GUI:
 
         except ValueError:
             messagebox.showerror("Error", "Please enter a valid number!")
-            return  # stop the function here if conversion fails
+            return  
     
 
         if sugar_level < 3.9:
@@ -130,7 +123,6 @@ class GUI:
 
         xpoints = df["date"].to_numpy()  #gets the date column from the dataframe
         ypoints = df["level"].to_numpy()  #gets the level column from the dataframe
-        # ypoints = np.array([3, 8, 1, 10, 5, 7])
 
 
         plt.plot(xpoints, ypoints,marker = 'o') #marker adds a circle at each point
