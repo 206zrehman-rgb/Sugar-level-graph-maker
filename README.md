@@ -1,7 +1,7 @@
 # Sugar-level-graph-maker
 A python interface that takes in a sugar level from a user input and adds it to a CSV. Using the CSV a graph is created with the use of Pandas and matplotlib.
 
-<img width="894" height="926" alt="image" src="https://github.com/user-attachments/assets/22e5f852-ec3e-412a-afa8-4e4329806e5f" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/22e5f852-ec3e-412a-afa8-4e4329806e5f" />
 
 This program aims for users with all types of diabetes to track their sugar level. The program uses mmol/L readings. Tkinter was used as the interface library due to its level of ease to program a simple UI. CSV file was used to store the data, using Pandas allowed for the data to be stored in a dataframe to be used in matplotlib, allowing for a graph to be created.
 <br>
