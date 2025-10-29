@@ -8,6 +8,8 @@ This program aims for users with all types of diabetes to track their sugar leve
 <br>
 
 A message based on the sugar level appears before loading the graph. The message ranges from congratulating the user to giving advice.
+<br>
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/333fb9ee-76c0-4592-970d-712c2f277b59" />
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/229453d3-ac14-4399-b726-26ebce75c4cb" />
 
@@ -16,6 +18,8 @@ A message based on the sugar level appears before loading the graph. The message
 <br>
 <br>
 The program has input validation, ensuring only float or integer values are entered. 
+<br>
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/049c51b1-8464-4db7-abe6-7efd8119ac58" />
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a891efab-89ad-4715-a372-ec90aee52c39" />
 
@@ -23,4 +27,6 @@ The program has input validation, ensuring only float or integer values are ente
 <br>
 
 The graph was designed to be easy to understand and simple, showing the date and time on the x axis and the rate of levels on the y axis
+<br>
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/43b2d0ee-58ef-4be0-a40b-735deccdc357" />
